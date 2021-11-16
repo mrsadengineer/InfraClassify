@@ -9,14 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageClassifierInfrastructu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageClassifierInfrastructureMLModel_ConsoleApp1", "ImageClassifierInfrastructureMLModel_ConsoleApp1\ImageClassifierInfrastructureMLModel_ConsoleApp1.csproj", "{2475CADF-D936-4C04-AF27-5A5CBC4DE2D3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TFImageClassification", "..\..\GithubRepos\machinelearning-samples\samples\csharp\end-to-end-apps\DeepLearning_ImageClassification_TF\TFImageClassification\TFImageClassification.csproj", "{F5388A22-377B-4463-AEE3-CDFB84455A33}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageClassification.WebApp", "..\..\GithubRepos\machinelearning-samples\samples\csharp\getting-started\DeepLearning_ImageClassification_Training\WebApp.Predict\ImageClassification.WebApp.csproj", "{427DFD8F-7F9F-4123-A28F-270DB99F0815}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageClassification.Shared", "..\..\GithubRepos\machinelearning-samples\samples\csharp\getting-started\DeepLearning_ImageClassification_Training\ImageClassification.Shared\ImageClassification.Shared.csproj", "{1E16094D-63CB-433C-97D6-F889EA4AA8D2}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mlnet-sample", "mlnet-sample", "{AB5586A2-1DFE-4E72-9709-CCB9A0D661C2}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfraClassify", "InfraClassify", "{7317A9F5-615A-49CB-87D3-4FB7C94E3694}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageClassificationInfraClassify.MyWebApp", "WebApp.Predict\ImageClassificationInfraClassify.MyWebApp.csproj", "{C145CDE5-3455-4177-BA34-C9EC19C2F971}"
@@ -39,18 +31,6 @@ Global
 		{2475CADF-D936-4C04-AF27-5A5CBC4DE2D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2475CADF-D936-4C04-AF27-5A5CBC4DE2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2475CADF-D936-4C04-AF27-5A5CBC4DE2D3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F5388A22-377B-4463-AEE3-CDFB84455A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5388A22-377B-4463-AEE3-CDFB84455A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5388A22-377B-4463-AEE3-CDFB84455A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F5388A22-377B-4463-AEE3-CDFB84455A33}.Release|Any CPU.Build.0 = Release|Any CPU
-		{427DFD8F-7F9F-4123-A28F-270DB99F0815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{427DFD8F-7F9F-4123-A28F-270DB99F0815}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{427DFD8F-7F9F-4123-A28F-270DB99F0815}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{427DFD8F-7F9F-4123-A28F-270DB99F0815}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1E16094D-63CB-433C-97D6-F889EA4AA8D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E16094D-63CB-433C-97D6-F889EA4AA8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1E16094D-63CB-433C-97D6-F889EA4AA8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E16094D-63CB-433C-97D6-F889EA4AA8D2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C145CDE5-3455-4177-BA34-C9EC19C2F971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C145CDE5-3455-4177-BA34-C9EC19C2F971}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C145CDE5-3455-4177-BA34-C9EC19C2F971}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -63,9 +43,6 @@ Global
 		{7F27D545-6F39-4D23-BDD6-5B7E633C1625} = {7317A9F5-615A-49CB-87D3-4FB7C94E3694}
 		{A39C0C0D-A5AD-480D-8272-B105935CF681} = {7317A9F5-615A-49CB-87D3-4FB7C94E3694}
 		{2475CADF-D936-4C04-AF27-5A5CBC4DE2D3} = {7317A9F5-615A-49CB-87D3-4FB7C94E3694}
-		{F5388A22-377B-4463-AEE3-CDFB84455A33} = {AB5586A2-1DFE-4E72-9709-CCB9A0D661C2}
-		{427DFD8F-7F9F-4123-A28F-270DB99F0815} = {AB5586A2-1DFE-4E72-9709-CCB9A0D661C2}
-		{1E16094D-63CB-433C-97D6-F889EA4AA8D2} = {AB5586A2-1DFE-4E72-9709-CCB9A0D661C2}
 		{C145CDE5-3455-4177-BA34-C9EC19C2F971} = {7317A9F5-615A-49CB-87D3-4FB7C94E3694}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

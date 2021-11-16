@@ -2,23 +2,20 @@
 Solution built for the 2021 Virtual ML.NET Hackathon. Using ML.NET, InfraClassify is a machine learning example for classifying images as type of infrastructure asset.
 
  Todo:  
--[X] Download Images
--[X] Train Model with ML.NET
--[X] Create Web App with controllers to Classify images for infrastructure asset types   
--[ ] Create Web API to Classify images for infrastructure asset types  
+-[x] Download Images  
+-[X] Train Model with ML.NET  
+-[X] Create Web App with controllers to Classify images for infrastructure asset types    
+-[ ] Create Web API to Classify images for infrastructure asset types   
 -[ ] Create blockchain integration for InfraClassify    
 
-
-
-
-## Introduction - the project's aim  
-Cpp App to practice and to familarlize myself with cryptology. The first cipher to study is the ceasar cipher.  
 
 ## Technologies
 Project is created with:  
 ML.NET
 ASP.NET Core  
-C#  
+C# 
+HTML
+CSS Bootstrap  
 
 ## Project status
 The project is 'in progress' 
@@ -27,7 +24,7 @@ The project is 'in progress'
    
 
 ## Sources  
-
+https://github.com/virtualmlnet/hackathon-2021  
 
 ## Scope of functionalities
 basic functions  
@@ -45,15 +42,16 @@ Advance functions
 
 
 
+#### Running app options
+download packages  
+
+--  
 
 
-#### For Windows Launch
+Single WebApp  
+With WebAPI and Running by Command Line 
 
-##### Running app option
 
-  
-
-##### Running by Command Line 
 
 
 ## Other information
