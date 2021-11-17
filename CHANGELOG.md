@@ -7,7 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]  
 
+## [0.1.6] - 2021-11-17
 
+### Changed
+-updated documentation on README.md. Explained difference in single
+app and multi app configuration.
+
+### Added
+-added console app for .net core 3.1 framework. this will me used as a client for 
+connecting with web api. 
 
 
 ## [0.1.5] - 2021-11-17

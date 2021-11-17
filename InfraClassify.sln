@@ -9,9 +9,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageClassifierInfrastructu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageClassifierInfrastructureMLModel_ConsoleApp1", "ImageClassifierInfrastructureMLModel_ConsoleApp1\ImageClassifierInfrastructureMLModel_ConsoleApp1.csproj", "{2475CADF-D936-4C04-AF27-5A5CBC4DE2D3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfraClassify", "InfraClassify", "{7317A9F5-615A-49CB-87D3-4FB7C94E3694}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageClassificationInfraClassify.MyWebApp", "WebApp.Predict\ImageClassificationInfraClassify.MyWebApp.csproj", "{C145CDE5-3455-4177-BA34-C9EC19C2F971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIClientConsoleApp", "WebAPIClientConsoleApp\WebAPIClientConsoleApp.csproj", "{250B6B2B-7018-4253-B2E3-88D993C52021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsolApp", "TestConsolApp\TestConsolApp.csproj", "{192C15F2-6984-47FA-9FAD-2516298BA1EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentations", "Documentations", "{2E9FA8CE-5FF4-4C99-8C57-7B8AC997F1A3}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
+		README.md = README.md
+		todo.txt = todo.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,15 +44,17 @@ Global
 		{C145CDE5-3455-4177-BA34-C9EC19C2F971}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C145CDE5-3455-4177-BA34-C9EC19C2F971}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C145CDE5-3455-4177-BA34-C9EC19C2F971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{250B6B2B-7018-4253-B2E3-88D993C52021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250B6B2B-7018-4253-B2E3-88D993C52021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250B6B2B-7018-4253-B2E3-88D993C52021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250B6B2B-7018-4253-B2E3-88D993C52021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{192C15F2-6984-47FA-9FAD-2516298BA1EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192C15F2-6984-47FA-9FAD-2516298BA1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192C15F2-6984-47FA-9FAD-2516298BA1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192C15F2-6984-47FA-9FAD-2516298BA1EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{7F27D545-6F39-4D23-BDD6-5B7E633C1625} = {7317A9F5-615A-49CB-87D3-4FB7C94E3694}
-		{A39C0C0D-A5AD-480D-8272-B105935CF681} = {7317A9F5-615A-49CB-87D3-4FB7C94E3694}
-		{2475CADF-D936-4C04-AF27-5A5CBC4DE2D3} = {7317A9F5-615A-49CB-87D3-4FB7C94E3694}
-		{C145CDE5-3455-4177-BA34-C9EC19C2F971} = {7317A9F5-615A-49CB-87D3-4FB7C94E3694}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52AF3D76-506B-4790-8D2B-E1CFAC49FEF7}

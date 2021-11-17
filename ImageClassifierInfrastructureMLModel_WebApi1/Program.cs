@@ -14,7 +14,7 @@ builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Description = "Docs for my API", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "InfraClassify API", Description = "Docs for my API", Version = "v1" });
 });
 var app = builder.Build();
 
@@ -27,7 +27,9 @@ app.UseSwaggerUI(c =>
 
 // Define prediction route & handler
 app.MapPost("/predict",
-    async (PredictionEnginePool<ImageClassifierInfrastructureMLModel.ModelInput, ImageClassifierInfrastructureMLModel.ModelOutput> predictionEnginePool, ImageClassifierInfrastructureMLModel.ModelInput input) =>
+    async (PredictionEnginePool<ImageClassifierInfrastructureMLModel.ModelInput, 
+    ImageClassifierInfrastructureMLModel.ModelOutput> predictionEnginePool, 
+    ImageClassifierInfrastructureMLModel.ModelInput input) =>
         await Task.FromResult(predictionEnginePool.Predict(input)));
 
 // Run app
