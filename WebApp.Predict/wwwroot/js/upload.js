@@ -19,7 +19,7 @@ form.addEventListener('submit', e => {
     //
     //    formData.append('imageFile[]', file);
     //}
-   
+ 
 
     fetch(serviceUrl, {
         method: 'POST',
@@ -35,6 +35,29 @@ form.addEventListener('submit', e => {
           document.getElementById('divPrediction').innerHTML = "Predicted label is: " + response.predictedLabel;
           document.getElementById('divProbability').innerHTML = "Probability is: " + (response.probability * 100).toFixed(3) + "%";
           document.getElementById('divExecutionTime').innerHTML = "Execution time was: " + response.predictionExecutionTime + " mlSecs";
+
+
+        //  var imagesour = document.getElementById('imageupload');
+         // imagesour.src = files[0];
+          
+         // var preview = document.querySelector('imageupload');
+
+          var preview = document.getElementById('imageupload');
+          var file = document.querySelector('input[type=file]').files[0];
+          var reader = new FileReader();
+
+          reader.onloadend = function () {
+              preview.src = reader.result;
+          }
+
+          if (file) {
+              reader.readAsDataURL(file);
+          } else {
+              preview.src = "";
+          }
+
+
+
 
           return response;
         });
