@@ -1,0 +1,52 @@
+ Todo:  
+-[x] Download Images
+-[x] Clean and Sort Images for Model Training
+-[ ] Write Documentation on Downloading Image for model training in VS
+-[X] Train Model with ML.NET
+-[x] Create default web api from ML.NET ModelBuilder
+-[x] Create default console app from ML.NET ModelBuilder
+-[X] Create Web App 
+	-[x] Create Pages
+	-[x] Create Controllers and Other Classes
+	
+-[ ] Add data server for listing infrastructure asset types
+-[ ] Add testing images
+-[ ] Add feature to Web App to call Web API for classification   
+-[ ] Create console app to call WebAPI.
+-[ ] Create blockchain integration for InfraClassify
+-[ ] Explore Project Orlean integration for model and data distributed operation management
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Resources
+https://www.yogihosting.com/aspnet-core-consume-api/ 
+
+https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/console-webapiclient
+
+
+
+
+//brainstorming todo
+Creating code snippet documentation  
+Create dockerfile  
+
+
+
+/// considering to add to readme for Placement or Future README Sub sections  
+### 
+Table of contents  
+Illustrations  
+Examples of use  

@@ -5,7 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]  
+ 
+
+## [0.2.0] - 2021-11-17 (PLANNING)
+### Features
+- console core client requesting from web api using httpclient
+- web app request data from minimal web api
+
+
+
+
+## [0.1.7] - 2021-11-17
+### Changed
+-Index.cshtml - updated dlt to web 3.0.
+-readme.md - cleared up some language on the option how the apps are run. 
+--included installation subsection
+--image model schema.
+
+
+
+## [Unreleased] 
 
 ## [0.1.6] - 2021-11-17
 

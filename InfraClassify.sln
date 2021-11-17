@@ -15,12 +15,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIClientConsoleApp", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsolApp", "TestConsolApp\TestConsolApp.csproj", "{192C15F2-6984-47FA-9FAD-2516298BA1EE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentations", "Documentations", "{2E9FA8CE-5FF4-4C99-8C57-7B8AC997F1A3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{2E9FA8CE-5FF4-4C99-8C57-7B8AC997F1A3}"
 	ProjectSection(SolutionItems) = preProject
 		CHANGELOG.md = CHANGELOG.md
 		README.md = README.md
 		todo.txt = todo.txt
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfraClassify", "InfraClassify", "{53B7855F-7D34-4AAD-91AC-9F6E9AF94548}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F27D545-6F39-4D23-BDD6-5B7E633C1625} = {53B7855F-7D34-4AAD-91AC-9F6E9AF94548}
+		{2475CADF-D936-4C04-AF27-5A5CBC4DE2D3} = {53B7855F-7D34-4AAD-91AC-9F6E9AF94548}
+		{C145CDE5-3455-4177-BA34-C9EC19C2F971} = {53B7855F-7D34-4AAD-91AC-9F6E9AF94548}
+		{250B6B2B-7018-4253-B2E3-88D993C52021} = {53B7855F-7D34-4AAD-91AC-9F6E9AF94548}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52AF3D76-506B-4790-8D2B-E1CFAC49FEF7}
