@@ -2,10 +2,7 @@
 @model ImageClassificationInfraClassify.MyWebApp.Pages.WebAppModel
 
 @{
-    ViewData["Title"] = "InfraClassify";
-
-
-
+    ViewData["Title"] = "InfraClassify - Web App";
 
 
 }
@@ -27,32 +24,32 @@
 
     <div class="container">
 
-        <div id="headerDiv"><h2>Upload Image to InfraClassify</h2></div>
+        <div id="headerDiv"><h2>Upload Image to InfraClassify for Classification</h2></div>
         <br />
         <div class="container">
             <div class="row">
-                <div class="col-sm">
+                <div class="col-sm-4">
                     <div>
                         <form method="post" enctype="multipart/form-data">
+              
                             <div>
-                                <p>Upload a file image using this form to predict its label:</p>
-                            </div>
-                            <div>
+                                <p><b>1.</b> Select Image for Classification</p>
                                 <input type="file" name="imageFile">
                             </div>
                             <div>
                                 <br />
+                                <p><b>2.</b> Submit Image to InfraClassify Prediction Engine</p>
                                 <input type="submit" value="Upload File" name="submit">
                             </div>
 
                         </form>
                     </div>
                 </div>
-                <div class="col-sm">
-                    <p>holding place for image </p>
-                    <img src='' height=300 width=300 id="imageupload" />
+                <div class="col-sm-4">
+                  
+                    <img src='' id="imageupload" />
                 </div>
-                <div class="col-sm">
+                <div class="col-sm-4">
      @*               <div class="col-md-6">
                         @if (ViewBag.Probability != null)
                         {
@@ -62,13 +59,13 @@
                         }
                
                     </div>*@
-                        <div id="divImageId" class="col-md-10"></div>
+                        <div id="divImageId" class="col-md"></div>
                         <br />
-                        <div id="divPrediction" class="col-md-10"></div>
+                        <div id="divPrediction" class="col-md"></div>
                         <br />
-                        <div id="divProbability" class="col-md-10"></div>
+                        <div id="divProbability" class="col-md"></div>
                         <br />
-                        <div id="divExecutionTime" class="col-md-10"></div>
+                        <div id="divExecutionTime" class="col-md"></div>
                 </div>
             </div>
         </div>

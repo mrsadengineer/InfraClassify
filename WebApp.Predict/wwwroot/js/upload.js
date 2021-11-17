@@ -31,16 +31,12 @@ form.addEventListener('submit', e => {
 
           //alert('Prediction is: ' + 'Label: ' + response.predictedLabel + ' Probability: ' + response.probability);
           
-          document.getElementById('divImageId').innerHTML = "Name of image file was: " + response.imageId;
-          document.getElementById('divPrediction').innerHTML = "Predicted label is: " + response.predictedLabel;
-          document.getElementById('divProbability').innerHTML = "Probability is: " + (response.probability * 100).toFixed(3) + "%";
-          document.getElementById('divExecutionTime').innerHTML = "Execution time was: " + response.predictionExecutionTime + " mlSecs";
+          document.getElementById('divImageId').innerHTML = "<b>Image file Name:</b> " + response.imageId;
+          document.getElementById('divPrediction').innerHTML = "<b>Predicted label is:</b>  " + response.predictedLabel;
+          document.getElementById('divProbability').innerHTML = "<b>Probability is: </b> " + (response.probability * 100).toFixed(3) + "%";
+          document.getElementById('divExecutionTime').innerHTML = "<b>Execution time was:</b> " + response.predictionExecutionTime + " mlSecs";
 
 
-        //  var imagesour = document.getElementById('imageupload');
-         // imagesour.src = files[0];
-          
-         // var preview = document.querySelector('imageupload');
 
           var preview = document.getElementById('imageupload');
           var file = document.querySelector('input[type=file]').files[0];
@@ -48,6 +44,8 @@ form.addEventListener('submit', e => {
 
           reader.onloadend = function () {
               preview.src = reader.result;
+              preview.height = 300;
+              preview.width = 300;
           }
 
           if (file) {
