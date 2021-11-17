@@ -1,12 +1,7 @@
 # InfraClassify
 Solution built for the 2021 Virtual ML.NET Hackathon. Using ML.NET, InfraClassify is a machine learning example for classifying images as type of infrastructure asset.
 
- Todo:  
--[x] Download Images  
--[X] Train Model with ML.NET  
--[X] Create Web App with controllers to Classify images for infrastructure asset types    
--[ ] Create Web API to Classify images for infrastructure asset types   
--[ ] Create blockchain integration for InfraClassify    
+
 
 
 ## Technologies
@@ -40,26 +35,20 @@ Advance functions
 
 
 
+#### Before Running Solution
+Insurach you have all the package download through nuget.   
+
+#### Running app options  
+There will be three ways to run this solution. The first will just be the web app. The web app includes the website and a simple ui for submitting 
+an image via asp.net core for prediction with ML.NET.  
+
+The second way to run the solution includes the web api project. You can run that api and the web app at the same time. 
+
+The thirdy way is run the web api and the console client app. 
 
 
-#### Running app options
-download packages  
-
---  
-
-
-Single WebApp  
-With WebAPI and Running by Command Line 
 
 
 
 
-## Other information
-### todo
-Creating code snippet documentation  
-Create dockerfile  
 
-### Placement for Future README Sub sections  
-Table of contents  
-Illustrations  
-Examples of use  

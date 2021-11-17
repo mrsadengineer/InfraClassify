@@ -1,0 +1,22 @@
+ Todo:  
+-[x] Download Images  
+-[X] Train Model with ML.NET  
+-[X] Create Web App with controllers to Classify images for infrastructure asset types    
+-[ ] Create Web API to Classify images for infrastructure asset types   
+-[ ] Create console app to call WebAPI.
+-[ ] Create blockchain integration for InfraClassify
+-[ ] Explore Project Orlean integration
+
+
+
+//brainstorming todo
+Creating code snippet documentation  
+Create dockerfile  
+
+
+
+/// considering to add to readme for Placement or Future README Sub sections  
+### 
+Table of contents  
+Illustrations  
+Examples of use  
