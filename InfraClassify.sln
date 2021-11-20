@@ -11,9 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageClassifierInfrastructu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageClassificationInfraClassify.MyWebApp", "WebApp.Predict\ImageClassificationInfraClassify.MyWebApp.csproj", "{C145CDE5-3455-4177-BA34-C9EC19C2F971}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIClientConsoleApp", "WebAPIClientConsoleApp\WebAPIClientConsoleApp.csproj", "{250B6B2B-7018-4253-B2E3-88D993C52021}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIClientConsoleApp", "WebAPIClientConsoleApp\WebAPIClientConsoleApp.csproj", "{250B6B2B-7018-4253-B2E3-88D993C52021}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsolApp", "TestConsolApp\TestConsolApp.csproj", "{192C15F2-6984-47FA-9FAD-2516298BA1EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsolApp", "TestConsolApp\TestConsolApp.csproj", "{192C15F2-6984-47FA-9FAD-2516298BA1EE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{2E9FA8CE-5FF4-4C99-8C57-7B8AC997F1A3}"
 	ProjectSection(SolutionItems) = preProject

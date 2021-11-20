@@ -6,14 +6,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
  
-
+## [Unreleased] 
 ## [0.2.0] - 2021-11-17 (PLANNING)
 ### Features
 - console core client requesting from web api using httpclient
 - web app request data from minimal web api
+## [0.1.9] - 2021-11-19
 
 
 
+## [Released] 
+
+## [0.1.8] - 2021-11-19
+
+### CONGRATS
+-project won the hackathon!!! I am going to coninue on with this project. 
+### Added
+-added github workflow doc. main_infraclassify.yml. I commented most of the stuff out because I don't knwo what is doing. '
 
 ## [0.1.7] - 2021-11-17
 ### Changed
@@ -21,10 +30,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 -readme.md - cleared up some language on the option how the apps are run. 
 --included installation subsection
 --image model schema.
-
-
-
-## [Unreleased] 
 
 ## [0.1.6] - 2021-11-17
 
@@ -35,7 +40,6 @@ app and multi app configuration.
 ### Added
 -added console app for .net core 3.1 framework. this will me used as a client for 
 connecting with web api. 
-
 
 ## [0.1.5] - 2021-11-17
 
