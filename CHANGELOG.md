@@ -11,11 +11,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Features
 - console core client requesting from web api using httpclient
 - web app request data from minimal web api
-## [0.1.9] - 2021-11-19
+## [0.1.] - 2021-11-19
 
 
 
 ## [Released] 
+## [0.1.9] - 2021-11-19
+### Fixed
+-got to publishing. this release will be test with github actions for CICD
+-removed one of the yml files. I think I got it working by fixing configuration file for release type.
 
 ## [0.1.8] - 2021-11-19
 
