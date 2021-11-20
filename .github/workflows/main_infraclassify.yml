@@ -1,13 +1,13 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy ASP.Net Core app to Azure Web App - InfraClassify
+#name: Build and deploy ASP.Net Core app to Azure Web App - InfraClassify
 
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+#on:
+#  push:
+#   branches:
+#     - main
+# workflow_dispatch:
 
 #jobs:
 #  build:
